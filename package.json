@@ -1,0 +1,26 @@
+{
+  "name": "vendingmachine",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "electron ." ,
+    "start": "electronmon ."
+
+  },
+  "devDependencies": {
+    "electron": "^39.2.3",
+    "electronmon": "^2.0.4",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}

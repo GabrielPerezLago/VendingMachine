@@ -1,0 +1,52 @@
+:root {
+    --color--maquina: linear-gradient(to right,
+            black 0%,
+            #111 20%,
+            #400 40%,
+            #700 60%,
+            red 80%,
+            red 100%);
+}
+
+html,
+body {
+    height: 100%;
+    background: var(--color--maquina);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid_container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "content content aside"
+        "footer footer footer";
+}
+
+
+
+
+#hader {
+    grid-area: header;
+    min-height: 10rem;
+}
+
+#content {
+    grid-area: content;
+    background-color: white;
+    min-height: 30rem;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+#footer {
+    grid-area: footer;
+    max-height: 1rem;
+}

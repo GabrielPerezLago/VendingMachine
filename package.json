@@ -12,7 +12,9 @@
     "run": "npx electronmon ."
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "electron": "^39.2.7",
-    "electronmon": "^2.0.4"
+    "electronmon": "^2.0.4",
+    "mongodb": "^7.0.0"
   }
 }

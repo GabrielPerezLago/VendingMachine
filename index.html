@@ -5,15 +5,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/controls.css">
     <title>Feddy`s Machine</title>
 </head>
 
 <body id="grid_container">
     <header id="header"></header>
     <main id="content"></main>
-    <aside id="aside"></aside>
+    <aside id="aside">
+        <div id="text-container"></div>
+        <div id="btn-container"></div>
+    </aside>
     <footer id="footer"></footer>
+    <script src="JS/render.js"></script>
 </body>
 
 </html>
